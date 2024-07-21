@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+li , p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav{
+    position: sticky;
+    top: 0%;
+    display: flex;
+   justify-content: space-between;
+   height: 10vh;
+   align-items: center;
+   background-color: #157145;
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    list-style:none ;
+    gap: 10%;
+    margin-right:5%;
+    align-items: center; 
+
+}
+li{
+    color: #FFFFFA;
+    font-size:3vw;
+    padding:5% ; 
+}
+li:hover{
+    background-color: #FF0035;
+    border-radius:15%; 
+    cursor: pointer;
+}
+ #main{
+ background-image: url(./poor.jpg) ;
+background-repeat:no-repeat;
+ height:100vh;
+   width: 100%;
+ background-size: cover;
+ background-position: center;
+align-items: center;
+justify-content: center;
+display:flex;
+flex-direction:column; 
+background-blend-mode: multiply;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+#main_heading{
+ color: #FFFFFA;
+ margin-left: 5vw;
+ font-family: "Merriweather", serif;
+ font-weight: 700;
+ font-style: normal;
+  
+}
+#slogan{
+    color: #FFFFFA;
+    text-align: center;
+    padding:5%; 
+   
+}
+button{
+    background-color: #FF0035;
+    color: #fff;
+    font-size: 3vh;
+    padding:5%;
+   border-radius: 20px;
+   cursor: pointer;
+}
+#butt{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#about_text{
+    text-align: center;
+    color:#FFFFFA;
+    padding:0% 2%; 
+}
+#about{
+background-color: #157145; 
+}
+.sec_head{
+    margin-left:5% ;
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 2% 0%;
+  margin-top: 2%;
+}
+.logo{
+    height: 20vh;
+    width: 20vh;
+    border: black solid;
+    border-radius:50%;
+    
+}
+.o_p_text{
+    text-align: center;
+    margin:2% ;
+}
+.logo_text{
+    display:flex;
+align-items: center;
+  flex-direction: column
+}
+
+.oldchild{
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    width:45vw;
+    
+}
+#old_child{
+    display: flex;
+    justify-content:space-around ;
+    margin-top:2% ;
+}
+.our_pics{
+    height:100% ;
+}
+#donate{
+    background-color: #157145;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    
+
+}
+#fname, #amount,#phone,#city,#program{
+    width: 40vw;
+    margin: 2% 0%;
+}
+#fname:hover{
+    border: gray solid;
+}
+#amount:hover{
+    border: gray solid;
+}
+#phone:hover{
+    border: gray solid;
+}
+#submit{
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+a{
+    color:#FFFFFA ;
+    text-decoration: none;
+}
+#about_text{
+ padding-bottom: 2%;
+}
+footer{
+    background-color:black;
+    color: #FFFFFA;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    #main_heading{
+      font-size: 3.5vw; 
+    }
+    li{
+        font-size:2vw 
+    }
+  }
+ 
